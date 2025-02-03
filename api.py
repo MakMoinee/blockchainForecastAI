@@ -14,8 +14,10 @@ import os
 import signal
 import threading
 import subprocess
+from flask_cors import CORS
 
 app = Quart(__name__)
+CORS(app, origins=["http://localhost:8443","https://blockfore.online"])
 
 ip_started = {}
 csv_file_path = 'mluzon.csv'

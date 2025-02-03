@@ -9,6 +9,7 @@ click==8.1.7
 colorama==0.4.6
 exceptiongroup==1.2.1
 Flask==3.0.3
+Flask-Cors==5.0.0
 flatbuffers==24.3.25
 gast==0.6.0
 google-auth==2.31.0
