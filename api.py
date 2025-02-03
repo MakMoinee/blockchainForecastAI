@@ -316,4 +316,4 @@ def restart_server():
 if __name__ == "__main__":
 
     # local_ip = get_local_ip()
-    app.run(host="localhost", debug=True, port=5000, use_reloader=False)
+    app.run(host="0.0.0.0", debug=True, port=5000, use_reloader=False)
