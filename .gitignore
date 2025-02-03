@@ -163,3 +163,4 @@ cython_debug/
 Scripts
 pyvenv.cfg
 *.csv
+bin
